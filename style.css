@@ -1,4 +1,7 @@
-body {
-    background-color: black;
-    color: white;  /* Isso muda a cor do texto para branco, pra ficar visível */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  color: white; /* Deixa o texto visível no fundo preto */
 }
+
