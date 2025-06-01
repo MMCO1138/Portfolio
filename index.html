@@ -16,7 +16,9 @@
 <body class="bg-black text-white m-0">
 
   <!-- Centralização total -->
-  <div class="d-flex justify-content-center align-items-center flex-column vh-100 text-center">
+  <div class="text-center py-4">
+
+
     <img src="img/Minha foto.jpg" alt="minha foto" class="rounded-circle" width="150" height="150">
     <h1 class="lead">Eu sou Mariana</h1>
     <h2>Eu toco teclado</h2>
@@ -28,7 +30,68 @@
       <p class="badge bg-secondary">Estudar Exatas</p>
     </div>
   </div>
+<main class="container mt-1">
+  <h2>Meus projetos de programação</h2>
+  <div class="row">
+    <!-- projeto 1 -->
+    <div class="col-md-4">
+      <div class="card">
+         <img src="img/Projeto 1.jpg" class="card-img-top" alt="imagem do projeto de catálogo de vídeos com HTML e CSS">
+          <div class="card-body">
+            <h5 class="card-title">Catálogo de vídeos de Miraculos</h5>
+            <p class="card-text">Este projeto apesenta uma grande quantidade de vídeos do desenho Miraculos. Foi feita com HTML e CSS.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#Modal1">veja o projeto</button>
+        </div>
+      </div>
+    </div>
+    <!-- Projeto 2 -->
+     <div class="col-md-4">
+      <div class="card">
+         <img src="img/projeto 2.jpg" class="card-img-top" alt="Arte interativa P5JS">
+          <div class="card-body">
+            <h5 class="card-title">Arte interativa</h5>
+            <p class="card-text">Este projeto apesenta um rostinho e onde o mouse for o olho se movimentará. Foi criado no P5JS. </p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#Modal2">veja o projeto</button>
+        </div>
+      </div>
+    </div><!-- Projeto 3-->
+     <div class="col-md-4">
+      <div class="card">
+         <img src="img/Projeto 3.jpg" class="card-img-top" alt="Quente e frio P5JS">
+          <div class="card-body">
+            <h5 class="card-title">Quente e frio</h5>
+            <p class="card-text">Este projeto apesenta um circulo que quanto mais longe do seu objetivo maior ele fica. Foi criado no P5JS.</p>
+           <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#Modal3">veja o projeto</button>
+      </div>
+    </div>
+  </div>
 
+</main>
+<!-- modal1 -->
+<div class="modal" id="Modal1" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Catálogo de vídeos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>O projeto é uma página web criada por mim. atraves do vscode e gitbub. O objetivo é ter acesso uma grande quantidade de vídeos do desenho Miraculos com mais facilidade.</p>
+        <img src="img/Projeto 1.jpg" alt="Imagem representativa do projeto" class="w-50">
+      </div>
+      <div class="modal-footer">
+       <a href="">Ver projeto ao vivo</a>
+       <a href="">Ver código do projeto</a>
+    </div>
+  </div>
+</div>
+ <footer class="container py-5" style="border: 2px solid red">
+  <h2>Entre em contato</h2>
+  <div>
+    <a href="https://github.com/MMCO1138">GitHub</a>
+  </div>
+  <p class="my-5 text-center">Copyright 2025. Produzido por Mariana Minutti</p>
+ </footer>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

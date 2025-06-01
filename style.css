@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
 html, body {
   height: 100%;
   margin: 0;
-  background-color: black;
-  color: white; /* Deixa o texto visível no fundo preto */
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: black; /* ou white, ou outra cor */
 }
 
+:root {
+  --cor-principal: #6E859F;
+  --cor-secundaria: #1080d1;
+  --cor-destaque: #C928FC;
+}
+
+h1, h2, h5 {
+  color: var(--cor-secundaria);
+  font-weight: 700;
+}
+
+footer a {
+  color: var(--cor-principal);
+}
+
+footer a:hover {
+  color: var(--cor-destaque);
+}
+
+body.modal-open {
+  overflow: hidden;
+}
