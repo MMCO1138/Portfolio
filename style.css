@@ -6,6 +6,14 @@ html, body {
   font-family: 'Chakra Petch', sans-serif;
   background-color: black; /* ou white, ou outra cor */
 }
+img.rounded-circle {
+  object-fit: cover; /* Corta a imagem para preencher o espaço sem distorcer */
+  width: 150px;      /* Define tamanho fixo */
+  height: 150px;     /* Igual largura e altura para ser quadrada */
+  display: block;    /* evita espaçamento estranho */
+  margin: 0 auto;    /* opcional, para centralizar */
+}
+
 
 :root {
   --cor-principal: #6E859F;
