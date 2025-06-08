@@ -29,3 +29,43 @@ footer a:hover {
 body.modal-open {
   overflow: hidden;
 }
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px; 
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+/* Estilo personalizado para o modal */
+.modal-content {
+  background-color: #000;
+  color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px solid var(--cor-secundaria);
+}
+.footer-fixo {
+  position: relative;
+  z-index: 1;
+}
+
+.modal-backdrop {
+  z-index: 1050;
+}
+
+.modal {
+  z-index: 1060;
+}
+
+
